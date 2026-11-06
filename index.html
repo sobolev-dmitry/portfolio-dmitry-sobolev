@@ -17,9 +17,54 @@
     <link rel="stylesheet" href="./styles/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header>привет мир! как дела?</header>
+    <header class="header">
+      <div class="header__inner">
+        <a href="#" class="logo"> Dmitry <span class="logo__accent">Sobolev</span> </a>
+
+        <nav class="nav" id="nav">
+          <ul class="nav__list">
+            <li><a href="#about" class="nav__link">Обо мне</a></li>
+            <li><a href="#projects" class="nav__link">Проекты</a></li>
+            <li><a href="#contacts" class="nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </header>
+    <main class="main__content">
+      <section class="hero">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Дмитрий Соболев.
+              <span class="hero__title-accent">Frontend</span>-разработчик
+            </h1>
+            <h3 class="hero__subtitle">
+              Превращаю макеты в удобные интерфейсы — 
+              с вниманием к структуре, компонентам и состояниям.
+            </h3>
+            <a href="#projects" class="button">Мои проекты</a>
+          </div>
+
+          <div class="hero__image">
+            <img
+              src="./images/cube_baner.jpg"
+              alt="Иллюстрация куб-сетка на тему фронтенд-разработки"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./scripts/script.js"></script>
   </body>
 </html>

@@ -21,18 +21,17 @@
   --error: #d32f2f; /* Для валидации форм и ошибок */
 
   /* Специфические цвета */
-  --color-code-bg: #2b2d35;
+  --code-bg: #2b2d35;
 
   /* ШРИФТ */
   --font-family: "Manrope", sans-serif;
 
   /* РАЗМЕРЫ ШРИФТОВ */
-
-  --fs-title-1: 48px;
-  --fs-title-2: 36px;
-  --fs-title-3: 28px;
-  --fs-title-4: 24px;
-  --fs-text-btn: 20px;
+  --fs-title-1: clamp(28px, 20.96px + 1.88vw, 48px);
+  --fs-title-2: clamp(24px, 19.77px + 1.13vw, 36px);
+  --fs-title-3: clamp(20px, 17.18px + 0.75vw, 28px);
+  --fs-title-4: clamp(18px, 15.89px + 0.56vw, 24px);
+  --fs-text-btn: clamp(16px, 14.59px + 0.38vw, 20px);
   --fs-text-menu: 18px;
   --fs-text-body: 16px;
   --fs-text-helper: 14px;

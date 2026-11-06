@@ -1,0 +1,17 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 40px;
+  color: var(--bg-cart);
+  font-weight: 700;
+  font-size: var(--fs-text-btn);
+  line-height: auto;
+  background-color: var(--accent);
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+}
