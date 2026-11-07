@@ -10,8 +10,17 @@
   font-weight: 700;
   font-size: var(--fs-text-btn);
   line-height: auto;
+  text-decoration: none;
   background-color: var(--accent);
   cursor: pointer;
   white-space: nowrap;
-  text-decoration: none;
+}
+
+.button__secondary {
+  align-self: center;
+  width: auto;
+  max-width: 100%;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background-color: var(--bg-cart);
 }
